@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 module "resource_group" {
-  source      = "git::https://github.com/opsstation/terraform-azure-resource-group.git?ref=v1.0.0"
+  source      = "git::https://github.com/sohanyadav/terraform-azure-resource-group.git?ref=v1.0.0"
   name        = "app"
   environment = "tesd"
   location    = "North Europe"
